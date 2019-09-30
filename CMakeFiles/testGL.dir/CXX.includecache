@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/davidkomolik/Documents/cpptesty/Animal.cc
+iostream
+-
+Animal.h
+/home/davidkomolik/Documents/cpptesty/Animal.h
+string
+-
+
+/home/davidkomolik/Documents/cpptesty/Animal.h
+string
+-
+iostream
+-
+
+/home/davidkomolik/Documents/cpptesty/test.cc
+iostream
+-
+thread
+-
+vector
+-
+set
+-
+iterator
+-
+Animal.h
+/home/davidkomolik/Documents/cpptesty/Animal.h
+list
+-
+array
+-
+boost/container/vector.hpp
+-
+

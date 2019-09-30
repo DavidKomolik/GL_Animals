@@ -1,0 +1,4 @@
+/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/rebuild_cache.dir
+/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/edit_cache.dir
+/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/runUnitTests.dir
+/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/test.dir
