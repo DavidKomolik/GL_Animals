@@ -1,9 +1,9 @@
-#include <iostream>
 #include "Animal.h"
-#include <string>
 
 
 using namespace std;
+
+
 
 Animal::Animal(string name, int pocetNoh) : AbstractAnimal( name, pocetNoh)  {
  
@@ -14,6 +14,5 @@ Animal::Animal(string name, int pocetNoh) : AbstractAnimal( name, pocetNoh)  {
 void Animal::vyhodVynimku(){
   throw logic_error("Test");
 }
-
 
 

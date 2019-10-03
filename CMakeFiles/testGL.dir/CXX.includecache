@@ -6,28 +6,32 @@
 
 #IncludeRegexTransform: 
 
-/home/davidkomolik/Documents/cpptesty/Animal.cc
-iostream
--
-Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
 string
 -
+
+/home/davidkomolik/Documents/cpptesty/Animal.cc
+Animal.h
+/home/davidkomolik/Documents/cpptesty/Animal.h
 
 /home/davidkomolik/Documents/cpptesty/Animal.h
 string
 -
+iostream
+-
+AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+
+/home/davidkomolik/Documents/cpptesty/src/VarAnimal.h
+../AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
 iostream
 -
 
 /home/davidkomolik/Documents/cpptesty/test.cc
 iostream
 -
-thread
--
 vector
--
-set
 -
 iterator
 -
@@ -37,6 +41,6 @@ list
 -
 array
 -
-boost/container/vector.hpp
--
+src/VarAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/VarAnimal.h
 

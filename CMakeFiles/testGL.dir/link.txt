@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/testGL.dir/test.cc.o CMakeFiles/testGL.dir/Animal.cc.o  -o testGL 
+/usr/bin/c++  -g   CMakeFiles/testGL.dir/test.cc.o CMakeFiles/testGL.dir/Animal.cc.o  -o testGL 

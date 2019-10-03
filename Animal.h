@@ -5,12 +5,17 @@
 
 using namespace std;
 
-class Animal : AbstractAnimal{
+template<typename T> 
+void napisCosi(T param){
+    std::cout << "param : " << param << std::endl;
+}
+
+class Animal : public AbstractAnimal{
     private:
 
     public:
         Animal(string name = "empty", int pocetNoh = -1);
-        
+
         virtual ~Animal(){};
 
         int getPocetNoh() override {

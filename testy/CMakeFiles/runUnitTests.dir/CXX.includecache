@@ -6,19 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/davidkomolik/Documents/cpptesty/Animal.cc
-iostream
--
-Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
 string
 -
+
+/home/davidkomolik/Documents/cpptesty/Animal.cc
+Animal.h
+/home/davidkomolik/Documents/cpptesty/Animal.h
 
 /home/davidkomolik/Documents/cpptesty/Animal.h
 string
 -
 iostream
 -
+AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
 
 /home/davidkomolik/Documents/cpptesty/testy/AnimalTest/LegTest.cpp
 ../stdafx_test.h

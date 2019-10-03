@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 
 class AbstractAnimal
@@ -7,15 +8,7 @@ protected:
     int _footNum;
 
 public:
-    AbstractAnimal(std::string name,int footNum);
-    ~AbstractAnimal();
+    AbstractAnimal(std::string name,int footNum):_name(name),_footNum(footNum){};
+    ~AbstractAnimal(){};
     virtual int getPocetNoh() = 0;
 };
-
-AbstractAnimal::AbstractAnimal(std::string name,int footNum):_name(name),_footNum(footNum)
-{
-}
-
-AbstractAnimal::~AbstractAnimal()
-{
-}
