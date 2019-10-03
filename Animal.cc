@@ -7,7 +7,7 @@ using namespace std;
 
 Animal::Animal(string name, int pocetNoh) : AbstractAnimal( name, pocetNoh)  {
  
-  cout << "Vytvaram zviera "  << _name << endl;
+  cout << "Vytvaram zvieras "  << _name << endl;
 
 }
 
