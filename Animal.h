@@ -5,36 +5,40 @@
 
 using namespace std;
 
-template<typename T> 
-void napisCosi(T param){
-    std::cout << "param : " << param << std::endl;
-}
+class Animal : public AbstractAnimal
+{
+private:
+public:
+    Animal(string name = "empty", int pocetNoh = -1);
 
-class Animal : public AbstractAnimal{
-    private:
+    virtual ~Animal(){};
 
-    public:
-        Animal(string name = "empty", int pocetNoh = -1);
+    int getPocetNoh() override
+    {
+        return _footNum;
+    }
+    string getName()
+    {
+        return _name;
+    }
 
-        virtual ~Animal(){};
+    void vyhodVynimku();
 
-        int getPocetNoh() override {
-            return _footNum;
-        }
-        string getName(){
-            return _name;
-        }
+    Animal(const Animal &a) : AbstractAnimal(a._name, a._footNum)
+    {
 
-        void vyhodVynimku();
+        cout << "Kopirujem zviera " << _name << endl;
+    }
+    Animal(const Animal &&a) : AbstractAnimal(a._name, a._footNum)
+    {
 
-        Animal(const Animal& a) : AbstractAnimal( a._name, a._footNum){
+        cout << "Presuvam zviera " << _name << endl;
+    }
 
-            cout<< "Kopirujem zviera " << _name << endl;
-
-        }
-        Animal(const Animal&& a): AbstractAnimal( a._name, a._footNum) {
-
-            cout<< "Presuvam zviera " << _name << endl;
-        }
-
+    friend ostream &operator<<(ostream &os, const Animal &animal)
+    {
+        os << " : Vypisujem pouzitie operatora << " << animal._name << endl;
+        return os;
+    }
 };
+

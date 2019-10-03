@@ -8,17 +8,46 @@
 
 using namespace std;
 
+template <typename T>
+void napisCosi(T param)
+{
+    std::cout << "param : " << param << std::endl;
+}
+
+template <>
+void napisCosi(bool a)
+{
+    std::cout << "Specialne pre bool : " << a << std::endl;
+}
+
+template <>
+void napisCosi(Animal a)
+{
+    std::cout << "Specialne pre animal : " << a.getPocetNoh() << std::endl;
+}
+
 int main()
 {
     //list<Animal> zverimex;
     vector<Animal> zverimex;
     VarAnimal<int> zver(5, 32);
-    napisCosi(555);
-    napisCosi(true);
-    napisCosi('c');
 
+    napisCosi(1);
+    napisCosi(1.5f);
+    napisCosi('a');
+    napisCosi(true);
     Animal slimak("Slimak");
     napisCosi(slimak);
+
+    /*
+    //Pointa je ta, aby si mal specializovany template pre VSETKY rastliny.
+    Flower flower("Pupava");
+    Tree tree("Borovica");
+    Cactus cactus("Agave");
+    napisCosi(flower);
+    napisCosi(tree);
+    napisCosi(cactus);
+*/
     //zverimex.push_back(zver);
 
     Animal pes("Pes");
