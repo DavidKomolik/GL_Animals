@@ -12,4 +12,8 @@ class Cactus : public Plant {
         std::cout << "Creating tree" << name << std::endl;
     }
     ~Cactus();
+    void printOut() override
+     {
+         std::cout << "I am Cactus with name : " << _name << std::endl;
+    }
 };

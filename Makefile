@@ -163,32 +163,32 @@ Animal.cc.s:
 	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/Animal.cc.s
 .PHONY : Animal.cc.s
 
-test.o: test.cc.o
+main.o: main.cpp.o
 
-.PHONY : test.o
+.PHONY : main.o
 
 # target to build an object file
-test.cc.o:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/test.cc.o
-.PHONY : test.cc.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test.i: test.cc.i
+main.i: main.cpp.i
 
-.PHONY : test.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test.cc.i:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/test.cc.i
-.PHONY : test.cc.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test.s: test.cc.s
+main.s: main.cpp.s
 
-.PHONY : test.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test.cc.s:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/test.cc.s
-.PHONY : test.cc.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -203,9 +203,9 @@ help:
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

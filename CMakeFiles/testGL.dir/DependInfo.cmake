@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/davidkomolik/Documents/cpptesty/Animal.cc" "/home/davidkomolik/Documents/cpptesty/CMakeFiles/testGL.dir/Animal.cc.o"
-  "/home/davidkomolik/Documents/cpptesty/test.cc" "/home/davidkomolik/Documents/cpptesty/CMakeFiles/testGL.dir/test.cc.o"
+  "/home/davidkomolik/Documents/cpptesty/main.cpp" "/home/davidkomolik/Documents/cpptesty/CMakeFiles/testGL.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

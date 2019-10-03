@@ -5,6 +5,10 @@
 #include <list>
 #include <array>
 #include "src/VarAnimal.h"
+#include "src/Plants/Plant.h"
+#include "src/Plants/Cactus.h"
+#include "src/Plants/Flower.h"
+#include "src/Plants/Tree.h"
 
 using namespace std;
 
@@ -26,6 +30,12 @@ void napisCosi(Animal a)
     std::cout << "Specialne pre animal : " << a.getPocetNoh() << std::endl;
 }
 
+template <>
+void napisCosi(Plant &plant)
+{
+     plant.printOut();
+}
+
 int main()
 {
     //list<Animal> zverimex;
@@ -39,7 +49,7 @@ int main()
     Animal slimak("Slimak");
     napisCosi(slimak);
 
-    /*
+    
     //Pointa je ta, aby si mal specializovany template pre VSETKY rastliny.
     Flower flower("Pupava");
     Tree tree("Borovica");
@@ -47,7 +57,7 @@ int main()
     napisCosi(flower);
     napisCosi(tree);
     napisCosi(cactus);
-*/
+
     //zverimex.push_back(zver);
 
     Animal pes("Pes");

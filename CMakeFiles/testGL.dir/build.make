@@ -57,28 +57,28 @@ include CMakeFiles/testGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testGL.dir/flags.make
 
-CMakeFiles/testGL.dir/test.cc.o: CMakeFiles/testGL.dir/flags.make
-CMakeFiles/testGL.dir/test.cc.o: test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davidkomolik/Documents/cpptesty/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testGL.dir/test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testGL.dir/test.cc.o -c /home/davidkomolik/Documents/cpptesty/test.cc
+CMakeFiles/testGL.dir/main.cpp.o: CMakeFiles/testGL.dir/flags.make
+CMakeFiles/testGL.dir/main.cpp.o: main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davidkomolik/Documents/cpptesty/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testGL.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testGL.dir/main.cpp.o -c /home/davidkomolik/Documents/cpptesty/main.cpp
 
-CMakeFiles/testGL.dir/test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testGL.dir/test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davidkomolik/Documents/cpptesty/test.cc > CMakeFiles/testGL.dir/test.cc.i
+CMakeFiles/testGL.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testGL.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davidkomolik/Documents/cpptesty/main.cpp > CMakeFiles/testGL.dir/main.cpp.i
 
-CMakeFiles/testGL.dir/test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testGL.dir/test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davidkomolik/Documents/cpptesty/test.cc -o CMakeFiles/testGL.dir/test.cc.s
+CMakeFiles/testGL.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testGL.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davidkomolik/Documents/cpptesty/main.cpp -o CMakeFiles/testGL.dir/main.cpp.s
 
-CMakeFiles/testGL.dir/test.cc.o.requires:
+CMakeFiles/testGL.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/testGL.dir/test.cc.o.requires
+.PHONY : CMakeFiles/testGL.dir/main.cpp.o.requires
 
-CMakeFiles/testGL.dir/test.cc.o.provides: CMakeFiles/testGL.dir/test.cc.o.requires
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/test.cc.o.provides.build
-.PHONY : CMakeFiles/testGL.dir/test.cc.o.provides
+CMakeFiles/testGL.dir/main.cpp.o.provides: CMakeFiles/testGL.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/testGL.dir/main.cpp.o.provides
 
-CMakeFiles/testGL.dir/test.cc.o.provides.build: CMakeFiles/testGL.dir/test.cc.o
+CMakeFiles/testGL.dir/main.cpp.o.provides.build: CMakeFiles/testGL.dir/main.cpp.o
 
 
 CMakeFiles/testGL.dir/Animal.cc.o: CMakeFiles/testGL.dir/flags.make
@@ -107,13 +107,13 @@ CMakeFiles/testGL.dir/Animal.cc.o.provides.build: CMakeFiles/testGL.dir/Animal.c
 
 # Object files for target testGL
 testGL_OBJECTS = \
-"CMakeFiles/testGL.dir/test.cc.o" \
+"CMakeFiles/testGL.dir/main.cpp.o" \
 "CMakeFiles/testGL.dir/Animal.cc.o"
 
 # External object files for target testGL
 testGL_EXTERNAL_OBJECTS =
 
-testGL: CMakeFiles/testGL.dir/test.cc.o
+testGL: CMakeFiles/testGL.dir/main.cpp.o
 testGL: CMakeFiles/testGL.dir/Animal.cc.o
 testGL: CMakeFiles/testGL.dir/build.make
 testGL: CMakeFiles/testGL.dir/link.txt
@@ -125,7 +125,7 @@ CMakeFiles/testGL.dir/build: testGL
 
 .PHONY : CMakeFiles/testGL.dir/build
 
-CMakeFiles/testGL.dir/requires: CMakeFiles/testGL.dir/test.cc.o.requires
+CMakeFiles/testGL.dir/requires: CMakeFiles/testGL.dir/main.cpp.o.requires
 CMakeFiles/testGL.dir/requires: CMakeFiles/testGL.dir/Animal.cc.o.requires
 
 .PHONY : CMakeFiles/testGL.dir/requires

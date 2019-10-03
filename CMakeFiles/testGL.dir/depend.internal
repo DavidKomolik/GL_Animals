@@ -5,8 +5,12 @@ CMakeFiles/testGL.dir/Animal.cc.o
  /home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
  /home/davidkomolik/Documents/cpptesty/Animal.cc
  /home/davidkomolik/Documents/cpptesty/Animal.h
-CMakeFiles/testGL.dir/test.cc.o
+CMakeFiles/testGL.dir/main.cpp.o
  /home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
  /home/davidkomolik/Documents/cpptesty/Animal.h
+ /home/davidkomolik/Documents/cpptesty/main.cpp
+ /home/davidkomolik/Documents/cpptesty/src/Plants/Cactus.h
+ /home/davidkomolik/Documents/cpptesty/src/Plants/Flower.h
+ /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
+ /home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
  /home/davidkomolik/Documents/cpptesty/src/VarAnimal.h
- /home/davidkomolik/Documents/cpptesty/test.cc

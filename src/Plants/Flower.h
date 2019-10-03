@@ -11,6 +11,10 @@ class Flower : public Plant
 private:
     /* data */
 public:
-    Flower(string name);
+    Flower(string name) : Plant(name) {};
     ~Flower();
+    void printOut() override
+     {
+         std::cout << "I am Tree with name : " << _name << std::endl;
+    }
 };

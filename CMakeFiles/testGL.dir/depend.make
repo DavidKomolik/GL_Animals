@@ -5,8 +5,12 @@ CMakeFiles/testGL.dir/Animal.cc.o: AbstractAnimal.h
 CMakeFiles/testGL.dir/Animal.cc.o: Animal.cc
 CMakeFiles/testGL.dir/Animal.cc.o: Animal.h
 
-CMakeFiles/testGL.dir/test.cc.o: AbstractAnimal.h
-CMakeFiles/testGL.dir/test.cc.o: Animal.h
-CMakeFiles/testGL.dir/test.cc.o: src/VarAnimal.h
-CMakeFiles/testGL.dir/test.cc.o: test.cc
+CMakeFiles/testGL.dir/main.cpp.o: AbstractAnimal.h
+CMakeFiles/testGL.dir/main.cpp.o: Animal.h
+CMakeFiles/testGL.dir/main.cpp.o: main.cpp
+CMakeFiles/testGL.dir/main.cpp.o: src/Plants/Cactus.h
+CMakeFiles/testGL.dir/main.cpp.o: src/Plants/Flower.h
+CMakeFiles/testGL.dir/main.cpp.o: src/Plants/Plant.h
+CMakeFiles/testGL.dir/main.cpp.o: src/Plants/Tree.h
+CMakeFiles/testGL.dir/main.cpp.o: src/VarAnimal.h
 
