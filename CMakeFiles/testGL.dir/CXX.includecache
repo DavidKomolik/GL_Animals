@@ -46,6 +46,12 @@ src/Plants/Flower.h
 src/Plants/Tree.h
 /home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
 
+/home/davidkomolik/Documents/cpptesty/src/Imports.h
+string
+-
+iostream
+-
+
 /home/davidkomolik/Documents/cpptesty/src/Plants/Cactus.h
 string
 -
@@ -67,10 +73,8 @@ string
 -
 
 /home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
-string
--
-iostream
--
+../Imports.h
+/home/davidkomolik/Documents/cpptesty/src/Imports.h
 Plant.h
 /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
 

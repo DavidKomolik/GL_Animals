@@ -1,10 +1,8 @@
 #pragma once
-#include <string>
-#include <iostream>
+#include "../Imports.h"
 
 #include "Plant.h"
 
-using namespace std;
 
 class Cactus : public Plant {
     public :

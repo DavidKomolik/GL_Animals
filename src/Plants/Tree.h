@@ -1,17 +1,14 @@
 #pragma once
-#include <string>
-#include <iostream>
+#include "../Imports.h"
 
 #include "Plant.h"
-
-using namespace std;
 
 class Tree : public Plant
 {
 private:
     /* data */
 public:
-    Tree(std::string name) : Plant(name){};
+    Tree(string name) : Plant(name){};
     ~Tree(){};
      void printOut() override
      {

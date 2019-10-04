@@ -1,7 +1,5 @@
 #pragma once
-#include <string>
-
-using std::string;
+#include "../Imports.h"
 
 class Plant
 {
