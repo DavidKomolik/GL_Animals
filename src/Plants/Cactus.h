@@ -11,7 +11,7 @@ class Cactus : public Plant {
     Cactus(string name) : Plant(name){
         std::cout << "Creating tree" << name << std::endl;
     }
-    ~Cactus();
+    ~Cactus(){};
     void printOut() override
      {
          std::cout << "I am Cactus with name : " << _name << std::endl;

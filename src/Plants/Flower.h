@@ -12,9 +12,9 @@ private:
     /* data */
 public:
     Flower(string name) : Plant(name) {};
-    ~Flower();
+    ~Flower(){};
     void printOut() override
      {
-         std::cout << "I am Tree with name : " << _name << std::endl;
+         std::cout << "I am Flower with name : " << _name << std::endl;
     }
 };

@@ -30,10 +30,9 @@ void napisCosi(Animal a)
     std::cout << "Specialne pre animal : " << a.getPocetNoh() << std::endl;
 }
 
-template <>
 void napisCosi(Plant &plant)
 {
-     plant.printOut();
+    plant.printOut();
 }
 
 int main()
@@ -42,21 +41,21 @@ int main()
     vector<Animal> zverimex;
     VarAnimal<int> zver(5, 32);
 
-    napisCosi(1);
+    //napisCosi()
+        napisCosi(1);
     napisCosi(1.5f);
     napisCosi('a');
     napisCosi(true);
     Animal slimak("Slimak");
     napisCosi(slimak);
 
-    
     //Pointa je ta, aby si mal specializovany template pre VSETKY rastliny.
     Flower flower("Pupava");
     Tree tree("Borovica");
     Cactus cactus("Agave");
-    napisCosi(flower);
-    napisCosi(tree);
-    napisCosi(cactus);
+    napisCosi(dynamic_cast<Plant &>(flower));
+    napisCosi(dynamic_cast<Plant &>(tree));
+    napisCosi(dynamic_cast<Plant &>(cactus));
 
     //zverimex.push_back(zver);
 

@@ -12,7 +12,7 @@ private:
     /* data */
 public:
     Tree(std::string name) : Plant(name){};
-    ~Tree();
+    ~Tree(){};
      void printOut() override
      {
          std::cout << "I am Tree with name : " << _name << std::endl;
