@@ -4,6 +4,7 @@ project(basic_test)
 
 enable_testing()
 
+include_directories(src/Animals)
 include_directories(..)
 include_directories(testy)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -14,7 +15,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 # Add test cpp file
 set (SOURCES
     AnimalTest/LegTest.cpp
-	../Animal.cc
+	../src/Animals/Animal.cc
 )
 
 set(HEADERS

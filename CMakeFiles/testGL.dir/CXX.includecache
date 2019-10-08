@@ -6,45 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/AbstractAnimal.h
 string
 -
 
-/home/davidkomolik/Documents/cpptesty/Animal.cc
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc
 Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.h
 
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.h
 string
 -
 iostream
 -
 AbstractAnimal.h
-/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/AbstractAnimal.h
 
-/home/davidkomolik/Documents/cpptesty/main.cpp
+/home/davidkomolik/Documents/cpptesty/src/Animals/VarAnimal.h
+AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/AbstractAnimal.h
 iostream
 -
-vector
--
-iterator
--
-Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
-list
--
-array
--
-src/VarAnimal.h
-/home/davidkomolik/Documents/cpptesty/src/VarAnimal.h
-src/Plants/Plant.h
-/home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
-src/Plants/Cactus.h
-/home/davidkomolik/Documents/cpptesty/src/Plants/Cactus.h
-src/Plants/Flower.h
-/home/davidkomolik/Documents/cpptesty/src/Plants/Flower.h
-src/Plants/Tree.h
-/home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
 
 /home/davidkomolik/Documents/cpptesty/src/Imports.h
 string
@@ -53,24 +35,20 @@ iostream
 -
 
 /home/davidkomolik/Documents/cpptesty/src/Plants/Cactus.h
-string
--
-iostream
--
+../Imports.h
+/home/davidkomolik/Documents/cpptesty/src/Imports.h
 Plant.h
 /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
 
 /home/davidkomolik/Documents/cpptesty/src/Plants/Flower.h
-string
--
-iostream
--
+../Imports.h
+/home/davidkomolik/Documents/cpptesty/src/Imports.h
 Plant.h
 /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
 
 /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
-string
--
+../Imports.h
+/home/davidkomolik/Documents/cpptesty/src/Imports.h
 
 /home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
 ../Imports.h
@@ -78,9 +56,31 @@ string
 Plant.h
 /home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
 
-/home/davidkomolik/Documents/cpptesty/src/VarAnimal.h
-../AbstractAnimal.h
-/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/main.cpp
 iostream
+-
+vector
+-
+iterator
+-
+list
+-
+array
+-
+Animals/Animal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.h
+Animals/VarAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/VarAnimal.h
+Plants/Plant.h
+/home/davidkomolik/Documents/cpptesty/src/Plants/Plant.h
+Plants/Cactus.h
+/home/davidkomolik/Documents/cpptesty/src/Plants/Cactus.h
+Plants/Flower.h
+/home/davidkomolik/Documents/cpptesty/src/Plants/Flower.h
+Plants/Tree.h
+/home/davidkomolik/Documents/cpptesty/src/Plants/Tree.h
+boost/sort/sort.hpp
+/home/davidkomolik/Documents/cpptesty/src/boost/sort/sort.hpp
+ctime
 -
 

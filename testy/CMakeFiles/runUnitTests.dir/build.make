@@ -81,40 +81,40 @@ testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o.provides: testy/CMake
 testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o.provides.build: testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o
 
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o: testy/CMakeFiles/runUnitTests.dir/flags.make
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o: Animal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davidkomolik/Documents/cpptesty/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o"
-	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTests.dir/__/Animal.cc.o -c /home/davidkomolik/Documents/cpptesty/Animal.cc
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o: testy/CMakeFiles/runUnitTests.dir/flags.make
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o: src/Animals/Animal.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/davidkomolik/Documents/cpptesty/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o"
+	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o -c /home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/__/Animal.cc.i"
-	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davidkomolik/Documents/cpptesty/Animal.cc > CMakeFiles/runUnitTests.dir/__/Animal.cc.i
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.i"
+	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc > CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.i
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/__/Animal.cc.s"
-	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davidkomolik/Documents/cpptesty/Animal.cc -o CMakeFiles/runUnitTests.dir/__/Animal.cc.s
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.s"
+	cd /home/davidkomolik/Documents/cpptesty/testy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc -o CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.s
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.requires:
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.requires:
 
-.PHONY : testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.requires
+.PHONY : testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.requires
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.provides: testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.requires
-	$(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.provides.build
-.PHONY : testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.provides
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.provides: testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.requires
+	$(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.provides.build
+.PHONY : testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.provides
 
-testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.provides.build: testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o
+testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.provides.build: testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o
 
 
 # Object files for target runUnitTests
 runUnitTests_OBJECTS = \
 "CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o" \
-"CMakeFiles/runUnitTests.dir/__/Animal.cc.o"
+"CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o"
 
 # External object files for target runUnitTests
 runUnitTests_EXTERNAL_OBJECTS =
 
 testy/runUnitTests: testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o
-testy/runUnitTests: testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o
+testy/runUnitTests: testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o
 testy/runUnitTests: testy/CMakeFiles/runUnitTests.dir/build.make
 testy/runUnitTests: testy/CMakeFiles/runUnitTests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/davidkomolik/Documents/cpptesty/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable runUnitTests"
@@ -126,7 +126,7 @@ testy/CMakeFiles/runUnitTests.dir/build: testy/runUnitTests
 .PHONY : testy/CMakeFiles/runUnitTests.dir/build
 
 testy/CMakeFiles/runUnitTests.dir/requires: testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o.requires
-testy/CMakeFiles/runUnitTests.dir/requires: testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o.requires
+testy/CMakeFiles/runUnitTests.dir/requires: testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o.requires
 
 .PHONY : testy/CMakeFiles/runUnitTests.dir/requires
 

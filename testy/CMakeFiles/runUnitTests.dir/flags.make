@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/davidkomolik/Documents/cpptesty/src -I/include -I/home/davidkomolik/Documents/cpptesty/testy/.. -I/home/davidkomolik/Documents/cpptesty/testy/testy 
+CXX_INCLUDES = -I/home/davidkomolik/Documents/cpptesty/src -I/include -I/home/davidkomolik/Documents/cpptesty/testy/src/Animals -I/home/davidkomolik/Documents/cpptesty/testy/.. -I/home/davidkomolik/Documents/cpptesty/testy/testy 
 

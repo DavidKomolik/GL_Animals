@@ -152,32 +152,32 @@ AnimalTest/LegTest.cpp.s:
 	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.s
 .PHONY : AnimalTest/LegTest.cpp.s
 
-__/Animal.o: __/Animal.cc.o
+__/src/Animals/Animal.o: __/src/Animals/Animal.cc.o
 
-.PHONY : __/Animal.o
+.PHONY : __/src/Animals/Animal.o
 
 # target to build an object file
-__/Animal.cc.o:
-	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o
-.PHONY : __/Animal.cc.o
+__/src/Animals/Animal.cc.o:
+	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o
+.PHONY : __/src/Animals/Animal.cc.o
 
-__/Animal.i: __/Animal.cc.i
+__/src/Animals/Animal.i: __/src/Animals/Animal.cc.i
 
-.PHONY : __/Animal.i
+.PHONY : __/src/Animals/Animal.i
 
 # target to preprocess a source file
-__/Animal.cc.i:
-	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.i
-.PHONY : __/Animal.cc.i
+__/src/Animals/Animal.cc.i:
+	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.i
+.PHONY : __/src/Animals/Animal.cc.i
 
-__/Animal.s: __/Animal.cc.s
+__/src/Animals/Animal.s: __/src/Animals/Animal.cc.s
 
-.PHONY : __/Animal.s
+.PHONY : __/src/Animals/Animal.s
 
 # target to generate assembly for a file
-__/Animal.cc.s:
-	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.s
-.PHONY : __/Animal.cc.s
+__/src/Animals/Animal.cc.s:
+	cd /home/davidkomolik/Documents/cpptesty && $(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.s
+.PHONY : __/src/Animals/Animal.cc.s
 
 # Help Target
 help:
@@ -191,9 +191,9 @@ help:
 	@echo "... AnimalTest/LegTest.o"
 	@echo "... AnimalTest/LegTest.i"
 	@echo "... AnimalTest/LegTest.s"
-	@echo "... __/Animal.o"
-	@echo "... __/Animal.i"
-	@echo "... __/Animal.s"
+	@echo "... __/src/Animals/Animal.o"
+	@echo "... __/src/Animals/Animal.i"
+	@echo "... __/src/Animals/Animal.s"
 .PHONY : help
 
 

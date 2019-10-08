@@ -1,5 +1,5 @@
 #include "../stdafx_test.h"
-#include "../../Animal.h"
+#include "Animals/Animal.h"
 
 Animal an("Kon",4);
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o CMakeFiles/runUnitTests.dir/__/Animal.cc.o  -o runUnitTests -lgtest -lpthread -lgtest_main 
+/usr/bin/c++  -g   CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o  -o runUnitTests -lgtest -lpthread -lgtest_main 

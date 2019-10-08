@@ -136,59 +136,59 @@ runUnitTests/fast:
 	$(MAKE) -f testy/CMakeFiles/runUnitTests.dir/build.make testy/CMakeFiles/runUnitTests.dir/build
 .PHONY : runUnitTests/fast
 
-Animal.o: Animal.cc.o
+src/Animals/Animal.o: src/Animals/Animal.cc.o
 
-.PHONY : Animal.o
-
-# target to build an object file
-Animal.cc.o:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/Animal.cc.o
-.PHONY : Animal.cc.o
-
-Animal.i: Animal.cc.i
-
-.PHONY : Animal.i
-
-# target to preprocess a source file
-Animal.cc.i:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/Animal.cc.i
-.PHONY : Animal.cc.i
-
-Animal.s: Animal.cc.s
-
-.PHONY : Animal.s
-
-# target to generate assembly for a file
-Animal.cc.s:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/Animal.cc.s
-.PHONY : Animal.cc.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : src/Animals/Animal.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Animals/Animal.cc.o:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/Animals/Animal.cc.o
+.PHONY : src/Animals/Animal.cc.o
 
-main.i: main.cpp.i
+src/Animals/Animal.i: src/Animals/Animal.cc.i
 
-.PHONY : main.i
+.PHONY : src/Animals/Animal.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Animals/Animal.cc.i:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/Animals/Animal.cc.i
+.PHONY : src/Animals/Animal.cc.i
 
-main.s: main.cpp.s
+src/Animals/Animal.s: src/Animals/Animal.cc.s
 
-.PHONY : main.s
+.PHONY : src/Animals/Animal.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Animals/Animal.cc.s:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/Animals/Animal.cc.s
+.PHONY : src/Animals/Animal.cc.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/testGL.dir/build.make CMakeFiles/testGL.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -200,12 +200,12 @@ help:
 	@echo "... testGL"
 	@echo "... edit_cache"
 	@echo "... runUnitTests"
-	@echo "... Animal.o"
-	@echo "... Animal.i"
-	@echo "... Animal.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Animals/Animal.o"
+	@echo "... src/Animals/Animal.i"
+	@echo "... src/Animals/Animal.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

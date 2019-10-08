@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testGL.dir/main.cpp.o"
-  "CMakeFiles/testGL.dir/Animal.cc.o"
+  "CMakeFiles/testGL.dir/src/main.cpp.o"
+  "CMakeFiles/testGL.dir/src/Animals/Animal.cc.o"
   "testGL.pdb"
   "testGL"
 )

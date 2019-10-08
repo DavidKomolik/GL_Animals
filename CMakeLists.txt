@@ -6,13 +6,27 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 #include_directories(/home/davidkomolik/Documents/vcpkg-master/installed/x64-linux/share/)
 
 
-add_executable(testGL main.cpp Animal.cc Animal.h src/VarAnimal.h 
-src/Plants/Plant.h src/Plants/Flower.h src/Plants/Cactus.h
-src/Plants/Tree.h)
+set (SOURCES
+    src/main.cpp
+    src/Animals/Animal.cc
+)
 
-#find_package(Boost COMPONENTS system python filesystem REQUIRED)
-#include_directories(${Boost_INCLUDE_DIRS})
-#link_directories(${Boost_LIBRARY_DIRS})
+set( HEADERS 
+    src/Animals/Animal.h 
+    src/Animals/VarAnimal.h 
+    src/Plants/Plant.h 
+    src/Plants/Flower.h 
+    src/Plants/Cactus.h
+    src/Plants/Tree.h
+    )
+
+
+
+add_executable(testGL ${HEADERS} ${SOURCES}  )
+
+find_package(Boost COMPONENTS system python filesystem REQUIRED)
+include_directories(${Boost_INCLUDE_DIRS})
+link_directories(${Boost_LIBRARY_DIRS})
                     
 add_subdirectory(testy)
 

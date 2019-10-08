@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/davidkomolik/Documents/cpptesty/testy/AnimalTest/LegTest.cpp" "/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o"
-  "/home/davidkomolik/Documents/cpptesty/Animal.cc" "/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/runUnitTests.dir/__/Animal.cc.o"
+  "/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc" "/home/davidkomolik/Documents/cpptesty/testy/CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "src"
   "/include"
+  "testy/src/Animals"
   "testy/.."
   "testy/testy"
   )

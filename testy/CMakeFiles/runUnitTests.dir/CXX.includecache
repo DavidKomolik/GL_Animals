@@ -6,31 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/AbstractAnimal.h
 string
 -
 
-/home/davidkomolik/Documents/cpptesty/Animal.cc
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.cc
 Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.h
 
-/home/davidkomolik/Documents/cpptesty/Animal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/Animal.h
 string
 -
 iostream
 -
 AbstractAnimal.h
-/home/davidkomolik/Documents/cpptesty/AbstractAnimal.h
+/home/davidkomolik/Documents/cpptesty/src/Animals/AbstractAnimal.h
 
 /home/davidkomolik/Documents/cpptesty/testy/AnimalTest/LegTest.cpp
 ../stdafx_test.h
 /home/davidkomolik/Documents/cpptesty/testy/stdafx_test.h
-../../Animal.h
-/home/davidkomolik/Documents/cpptesty/Animal.h
+Animals/Animal.h
+/home/davidkomolik/Documents/cpptesty/testy/AnimalTest/Animals/Animal.h
 
 /home/davidkomolik/Documents/cpptesty/testy/stdafx_test.h
 gtest/gtest.h
 -
 gmock/gmock.h
 -
+
+src/Animals/AbstractAnimal.h
+string
+-
+
+src/Animals/Animal.h
+string
+-
+iostream
+-
+AbstractAnimal.h
+src/Animals/AbstractAnimal.h
 

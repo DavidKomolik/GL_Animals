@@ -1,5 +1,5 @@
 #pragma once
-#include "../AbstractAnimal.h"
+#include "AbstractAnimal.h"
 #include <iostream>
 
 

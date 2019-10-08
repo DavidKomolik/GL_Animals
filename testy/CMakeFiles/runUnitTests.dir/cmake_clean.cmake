@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/runUnitTests.dir/AnimalTest/LegTest.cpp.o"
-  "CMakeFiles/runUnitTests.dir/__/Animal.cc.o"
+  "CMakeFiles/runUnitTests.dir/__/src/Animals/Animal.cc.o"
   "runUnitTests.pdb"
   "runUnitTests"
 )

@@ -1,14 +1,20 @@
+#pragma once 
 #include <iostream>
 #include <vector>
 #include <iterator>
-#include "Animal.h"
 #include <list>
 #include <array>
-#include "src/VarAnimal.h"
-#include "src/Plants/Plant.h"
-#include "src/Plants/Cactus.h"
-#include "src/Plants/Flower.h"
-#include "src/Plants/Tree.h"
+#include "Animals/Animal.h"
+#include "Animals/VarAnimal.h"
+#include "Plants/Plant.h"
+#include "Plants/Cactus.h"
+#include "Plants/Flower.h"
+#include "Plants/Tree.h"
+//#include "boost/sort/spreadsort/spreadsort.hpp"
+#include "boost/sort/sort.hpp"
+#include <ctime>
+
+#define DATA_TYPE boost::int64_t
 
 using namespace std;
 
@@ -37,16 +43,38 @@ void napisCosi(Plant &plant)
 
 int main()
 {
+    
     //list<Animal> zverimex;
     vector<Animal> zverimex;
     VarAnimal<int> zver(5, 32);
+    array<int,1000000> cisla;
+    vector<int> ciselka;
+    srand(time(NULL));
+
+    std::cout << "Plnim pole..." << std::endl;
+    clock_t begin_time = clock();
+
+    for (size_t i = 0; i < 1000000; i++)
+    {
+        cisla[i] = rand();
+        //ciselka.push_back(rand());
+    }
+
+    std::cout << "OK --> ";
+	std::cout << float(clock() - begin_time) / CLOCKS_PER_SEC << "s \n";
+    
+    std::cout << "Triedim..." << std::endl;
+     begin_time = clock();
+    boost::sort::spreadsort::integer_sort(cisla.begin(),cisla.end());
+    std::cout << "OK --> ";
+    std::cout << float(clock() - begin_time) / CLOCKS_PER_SEC << "s \n";
 
     //napisCosi()
-        napisCosi(1);
+    napisCosi(1);
     napisCosi(1.5f);
     napisCosi('a');
     napisCosi(true);
-    Animal slimak("Slimak");
+    Animal slimak ("Slimak");
     napisCosi(slimak);
 
     //Pointa je ta, aby si mal specializovany template pre VSETKY rastliny.
@@ -61,6 +89,8 @@ int main()
 
     Animal pes("Pes");
     zverimex.push_back(pes);
+
+    zverimex.reserve(1000);
 
     //zverimex->operator[](0) = *new Animal ("Macka");
     cout << "------------------" << endl;

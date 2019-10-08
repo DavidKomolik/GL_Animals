@@ -13,12 +13,16 @@
             "options": {
                 "cwd": "/usr/bin"
             }
-        },{
+        },
+        {
             "label": "cmake",
             "type": "shell",
             "options": {
                 "cwd": "${workspaceRoot}"
             },
+            "dependsOn": [
+                "reset"
+            ],
             "command": "cmake",
             "args": [
                 "-G",
@@ -26,6 +30,14 @@
                 "-DCMAKE_BUILD_TYPE=Debug",
                 "${workspaceRoot}"
             ]
+        },
+        {
+            "label": "reset",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "command": "reset"
         },
         {
             "label": "make",
